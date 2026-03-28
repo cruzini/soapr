@@ -2,6 +2,6 @@
   "name": "soa-puerto-rico",
   "version": "1.0.0",
   "scripts": {
-    "start": "npx serve -s . -l $PORT"
+    "start": "npx serve . -l $PORT"
   }
 }
