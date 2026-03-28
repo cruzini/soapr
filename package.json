@@ -2,6 +2,7 @@
   "name": "soa-puerto-rico",
   "version": "1.0.0",
   "scripts": {
+    "build": "echo 'Static site ready'",
     "start": "node server.js"
   }
 }
