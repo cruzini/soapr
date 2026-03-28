@@ -680,14 +680,14 @@ ul { list-style: none; }
 
 /* ===== Partners ===== */
 .partners-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 28px;
-  justify-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
 .partner-card {
-  width: 100%;
+  width: 280px;
   text-align: center;
   padding: 40px 28px;
   background: var(--white);
