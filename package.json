@@ -1,7 +1,10 @@
 {
   "name": "soa-puerto-rico",
   "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.18.0"
+  },
   "scripts": {
-    "start": "npx serve . -l $PORT"
+    "start": "node server.js"
   }
 }
